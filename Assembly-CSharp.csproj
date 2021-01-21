@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2515F65C-30FE-9744-505A-4D92EDEBD88C}</ProjectGuid>
+    <ProjectGuid>{B1F7D697-00D8-7058-9A72-7088E2279AB4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -291,7 +291,7 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.11f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/NaughyBaby/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.11f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -639,85 +639,88 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.11f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/NaughyBaby/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/NaughyBaby/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Recorder.Editor">
-      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
+      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/NaughyBaby/Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/NaughyBaby/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Recorder">
-      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
+      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/NaughyBaby/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/NaughyBaby/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/NaughyBaby/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/NaughyBaby/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/NaughyBaby/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Recorder.Base">
+      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/NaughyBaby/Library/ScriptAssemblies/Unity.Recorder.Base.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/NaughyBaby/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/NaughyBaby/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/NaughyBaby/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{B38F70BC-BB9F-8979-D588-17195B9AB302}</Project>
+      <Project>{6B75B723-E490-F1D0-002C-09A4ADF234F5}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="Animancer.Examples.csproj">
-      <Project>{ED186411-70CB-FB96-08AA-026A066C990C}</Project>
+      <Project>{0874E81D-E09C-F923-F39C-A71EAE79EE82}</Project>
       <Name>Animancer.Examples</Name>
     </ProjectReference>
     <ProjectReference Include="ToonyColorsPro2.Demo.csproj">
-      <Project>{619D0488-22CD-1C3B-651E-D748A013A828}</Project>
+      <Project>{6E63A197-3BBF-C4A8-2975-3E5E859CB728}</Project>
       <Name>ToonyColorsPro2.Demo</Name>
     </ProjectReference>
     <ProjectReference Include="LeanPool.csproj">
-      <Project>{9553711C-BFD4-23FC-5C5C-41EE57D3DAFF}</Project>
+      <Project>{659C7F44-1BD6-4CD6-9B27-BA0BC0779E20}</Project>
       <Name>LeanPool</Name>
     </ProjectReference>
     <ProjectReference Include="Animancer.FSM.csproj">
-      <Project>{01AA8812-5466-3CC7-F2DD-19BDF3122B09}</Project>
+      <Project>{592F830D-BED7-37E4-24BA-5FE3812E2336}</Project>
       <Name>Animancer.FSM</Name>
     </ProjectReference>
     <ProjectReference Include="ToonyColorsPro.Runtime.csproj">
-      <Project>{975FF5AB-5AD7-4175-E97A-4C1C1F317C70}</Project>
+      <Project>{AFDEA347-E323-48E6-E5B7-8BAD7F5F2301}</Project>
       <Name>ToonyColorsPro.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="ToonyColorsPro.Editor.csproj">
-      <Project>{331DC224-015B-A07A-DD9F-53219062F286}</Project>
+      <Project>{2C1C428C-3A35-F4C0-07D0-723C0CACE295}</Project>
       <Name>ToonyColorsPro.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="LeanCommon.csproj">
-      <Project>{9F73413A-30DB-7E94-5EFB-07AB8E818AB0}</Project>
+      <Project>{DD1DC954-C8D2-C1A4-C546-544417B310F2}</Project>
       <Name>LeanCommon</Name>
     </ProjectReference>
     <ProjectReference Include="LeanTouch.csproj">
-      <Project>{D2199FDB-A1F6-783F-BB27-46B06A6E4B7A}</Project>
+      <Project>{41A113AD-9F9F-DB06-9652-C9844306751D}</Project>
       <Name>LeanTouch</Name>
     </ProjectReference>
     <ProjectReference Include="Animancer.csproj">
-      <Project>{67EA1B17-110F-10A2-0E36-BE73569F096D}</Project>
+      <Project>{78D8643C-00BD-F042-826D-7E0439F3CBCB}</Project>
       <Name>Animancer</Name>
     </ProjectReference>
     <ProjectReference Include="PaintIn3D.csproj">
-      <Project>{FA9FED3F-9C23-5331-8718-E0E38A67AC75}</Project>
+      <Project>{03297620-3220-8EF9-C14C-8E5A0C75A1FC}</Project>
       <Name>PaintIn3D</Name>
     </ProjectReference>
   </ItemGroup>

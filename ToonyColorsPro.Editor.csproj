@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{331DC224-015B-A07A-DD9F-53219062F286}</ProjectGuid>
+    <ProjectGuid>{2C1C428C-3A35-F4C0-07D0-723C0CACE295}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>ToonyColorsPro.Editor</AssemblyName>
@@ -298,13 +298,13 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/NaughyBaby/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenEditor">
-      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/NaughyBaby/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/NaughyBaby/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -661,21 +661,21 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/NaughyBaby/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/NaughyBaby/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/NaughyBaby/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/NaughyBaby/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="ToonyColorsPro.Runtime.csproj">
-      <Project>{975FF5AB-5AD7-4175-E97A-4C1C1F317C70}</Project>
+      <Project>{AFDEA347-E323-48E6-E5B7-8BAD7F5F2301}</Project>
       <Name>ToonyColorsPro.Runtime</Name>
     </ProjectReference>
   </ItemGroup>

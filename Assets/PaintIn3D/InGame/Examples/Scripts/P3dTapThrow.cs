@@ -49,6 +49,13 @@ namespace PaintIn3D
         private P3dInputManager inputManager = new P3dInputManager();
 
 
+        private void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.S))
+            {
+                ThrowObject();
+            }
+        }
 
         void ThrowObject()
         {
@@ -83,7 +90,7 @@ namespace PaintIn3D
 
                         if (cloneRigidbody != null)
                         {
-                            cloneRigidbody.isKinematic = true;
+                            //cloneRigidbody.isKinematic = true;
                             //cloneRigidbody.velocity = clone.transform.forward * Speed;
 
                         }

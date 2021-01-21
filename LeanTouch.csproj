@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D2199FDB-A1F6-783F-BB27-46B06A6E4B7A}</ProjectGuid>
+    <ProjectGuid>{41A113AD-9F9F-DB06-9652-C9844306751D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>LeanTouch</AssemblyName>
@@ -298,10 +298,10 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/NaughyBaby/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenEditor">
-      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/NaughyBaby/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.11f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -649,15 +649,15 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.11f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/NaughyBaby/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/ISRAFIL/Desktop/UNITY PROJECTS/Naughy Baby/NaughyBaby/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="LeanCommon.csproj">
-      <Project>{9F73413A-30DB-7E94-5EFB-07AB8E818AB0}</Project>
+      <Project>{DD1DC954-C8D2-C1A4-C546-544417B310F2}</Project>
       <Name>LeanCommon</Name>
     </ProjectReference>
   </ItemGroup>

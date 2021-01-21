@@ -11,9 +11,9 @@ public class GameManager : LocalSingleton<GameManager>
     [SerializeField] GameObject questionUI;
     [SerializeField] Button optionOne;
     [SerializeField] Button optionTwo;
-    [SerializeField] Player baby;
+    [SerializeField] public Player baby;
     [SerializeField] Player babyFriend;
-    [SerializeField] Camera mainCamera;
+    [SerializeField] public Camera mainCamera;
     public Transform kidRoomCamPos;
     public Transform FoodTableCamPos;
     public Image cameraFadePanel;
@@ -22,6 +22,8 @@ public class GameManager : LocalSingleton<GameManager>
     [SerializeField] Transform ballPosSecond;
     [SerializeField] GameObject kidBall;
     [SerializeField] GameObject fork;
+    Rigidbody rigidbody;
+    private float thrust = 10f;
     void Start()
     {
         kidBall.SetActive(false);
@@ -31,6 +33,7 @@ public class GameManager : LocalSingleton<GameManager>
         questionUI.SetActive(false);
         optionOne.onClick.AddListener(() => OptionOneFunction());
         optionTwo.onClick.AddListener(() => OptionTwoFunction());
+        rigidbody = kidBall.GetComponent<Rigidbody>();
     }
 
     internal void PlayerThrowObject()
@@ -38,6 +41,17 @@ public class GameManager : LocalSingleton<GameManager>
         baby.PlayAnim(AnimationType.ThrowObject, 0, true);
         PaintIn3D.P3dTapThrow.isThrown = true;
         StartCoroutine(BallThrow());
+    }
+
+    internal void CameraFieldOfView(float camFieldOfView = 60, float rotationX = 28,float rotationY=180)
+    {
+        mainCamera.DOFieldOfView(camFieldOfView, 1f);
+        mainCamera.transform.DORotate(new Vector3(rotationX,rotationY,0),.5f);
+    }
+    
+    internal void CameraZoom(Vector3 vector)
+    {
+        mainCamera.transform.DOMove(vector,.5f);
     }
 
     IEnumerator BallThrow()
@@ -51,10 +65,15 @@ public class GameManager : LocalSingleton<GameManager>
         }
         thrownBall.transform.SetParent(kidBall.transform);
         thrownBall.transform.localPosition = Vector3.zero;
-
-        yield return new WaitForSeconds(.9f);
+        //rigidbody.AddForce(transform.forward*100,ForceMode.Impulse);
+        yield return new WaitForSeconds(.85f);
+        kidBall.GetComponent<MeshRenderer>().enabled = false;
+        thrownBall.transform.DOMove(ballPosSecond.position,.3f);
         kidBall.transform.SetParent(null);
-        kidBall.transform.DOMove(ballPosSecond.position,.18f);
+        yield return new WaitForSeconds(.2f);
+        kidBall.SetActive(false);
+        //thrownBall.transform.localScale = Vector3.one; 
+        //kidBall.transform.DOMove(ballPosSecond.position,.18f);
     }
 
 
@@ -87,7 +106,7 @@ public class GameManager : LocalSingleton<GameManager>
     {
         mainCamera.transform.position = FoodTableCamPos.position;
         mainCamera.transform.DOMove(FoodTableCamPos.position, 1);
-        mainCamera.transform.DORotate(new Vector3(25, 120, 0), 1);
+        //mainCamera.transform.DORotate(new Vector3(25, 120, 0), 1);
         baby.transform.position = babyTransfomPos3.position;
         baby.PlayAnim(AnimationType.HappyStanding);
         fork.SetActive(true);
@@ -195,7 +214,7 @@ public class GameManager : LocalSingleton<GameManager>
             babyTransfomPos2.transform.rotation = babyTransfomPos2.rotation;
             kidBall.SetActive(true);
             mainCamera.transform.DOMove(kidRoomCamPos.position, 1);
-            mainCamera.transform.DORotate(new Vector3(25, 270, 0), 1);
+            mainCamera.transform.DORotate(new Vector3(30, 270, 0), 1);
         }
         else
             kidBall.SetActive(false);
@@ -210,9 +229,9 @@ public class GameManager : LocalSingleton<GameManager>
 
     internal void CameraSwitchFade()
     {
-        cameraFadePanel.DOFade(1, .5f);
+        //cameraFadePanel.DOFade(1, .5f);
         MoveCamera(1);
-        cameraFadePanel.DOFade(0, .5f);
+        //cameraFadePanel.DOFade(0, .5f);
     }
 
     internal void SitIdleHappy()
